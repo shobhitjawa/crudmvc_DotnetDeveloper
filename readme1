@@ -1,0 +1,15 @@
+# crudmvc_DotnetDeveloper
+
+
+To Run Project Unzip the the Project file.
+
+steps to follow after unzipping.
+
+1.Install 3 Package from Pacakge manager nuget :
+         Entityframeworkcore
+         Entityframeworkcore.sqlserver
+         Entityframeworkcore.tools
+
+2. Run migration to create database
+  command 1-> Add-Migration "InitialCreate"         -->any name can come inside "".
+  command 2->  Update-Database
